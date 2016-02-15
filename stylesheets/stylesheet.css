@@ -8,6 +8,10 @@ body {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
+twitter-timeline {
+  padding-left:20px;
+}
+
 /* General & 'Reset' Stuff */
 
 .container {
