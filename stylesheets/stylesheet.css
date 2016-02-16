@@ -8,8 +8,8 @@ body {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
-twitter-timeline {
-  padding-left:20px;
+.TWITTER_FLOAT {
+  padding-left: 50px;
 }
 
 /* General & 'Reset' Stuff */
@@ -62,7 +62,7 @@ header h1 {
 }
 
 header h1:before {
-  content: "./ ";
+  content: "ZeusPrinter$ ./";
   font-size: 24px;
 }
 
