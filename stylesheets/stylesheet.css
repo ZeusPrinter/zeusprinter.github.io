@@ -1,3 +1,9 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,6 +12,59 @@ body {
   font: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+.boxed, .bound {
+  background-color: white;
+  border: 2px solid lightblue ;
+  color: black;
+}
+
+.warning {
+  color: darkred;
+}
+
+.indent {
+  text-indent: 30px;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.box .row {
+  border: 1px dotted grey;
+  flex: 0 1 30px;
+}
+
+.box .row.header {
+  flex: 0 1 auto;
+}
+
+.box .row.content {
+  flex: 1 1 auto;
+}
+
+.box .row.footer {
+  flex: 0 1 40px;
+}
+
+.bound {
+  display: flex;
+  flex-direction: column;
+  height: 99%;
+  align-content: flex-stretch
+  width: 99%;
+  flex: 1 1 auto;
+  margin auto;
+}
+
+.child {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .square {
